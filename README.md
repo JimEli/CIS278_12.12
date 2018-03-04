@@ -2,7 +2,7 @@
 ## Exercise 12.12
 ### Package Inheritance Hierarchy
 
-Exercise 12.12 on page 574, Package Inheritance Hierarchy
+Exercise 12.12 on page 574, C++ How to Program, 10/e, Deitel
 
 Use the Package inheritance hierarchy created in Exercise 11.9 to create a program that displays the address information and calculates the shipping costs for several packages. The program should contain a vector of Package pointers to objects of classes TwoDayPackage and OvernightPackage. Loop through the vector to process the Packages polymorphically. For each Package, invoke get functions to obtain the address information of the sender and the recipient, then print the two addresses as they would appear on the mailing labels. Also, call each Package’s calculateCost member function and print the result. Keep track of the total shipping cost for all packages in the vector, and display this total when the loop terminates.
 
