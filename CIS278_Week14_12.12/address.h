@@ -11,7 +11,7 @@ struct Address {
 	friend std::ostream& operator<< (std::ostream& os, const Address& addr)
 	{
 		return os << " " << addr.name << "\n " << addr.address << "\n " << addr.city << ", " << addr.state
-				  << "  " << std::setw(5) << std::fixed << std::setprecision(5) << addr.zipCode << std::endl;
+			  << "  " << std::setw(5) << std::fixed << std::setprecision(5) << addr.zipCode << std::endl;
 	}
 
 private:
